@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form2">
+  <grid id="27dc6" binding="rootPanel2" layout-manager="GridLayoutManager" row-count="12" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="13" width="1093" height="413"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="60723" class="javax.swing.JLabel" binding="lblDateClient">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="  Introduceti datele pentru clientul nou:"/>
+        </properties>
+      </component>
+      <component id="e35d1" class="javax.swing.JLabel" binding="lblNume">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="  Nume: (cu majuscula)"/>
+        </properties>
+      </component>
+      <component id="d4d87" class="javax.swing.JLabel" binding="lblPrenume">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="  Prenume: (cu majuscula)"/>
+        </properties>
+      </component>
+      <component id="3ddae" class="javax.swing.JLabel" binding="lblSuma">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="  Suma de bani(minim 50 lei): "/>
+        </properties>
+      </component>
+      <component id="7d83f" class="javax.swing.JTextField" binding="txtPrenume">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="89" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e0b8b" class="javax.swing.JTextField" binding="txtNume">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="89" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="99fe7" class="javax.swing.JTextField" binding="txtBani">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="89" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="328d5" class="javax.swing.JLabel" binding="lblAfisareDate">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="  Contul a fost creat si are urmatoarele date: "/>
+        </properties>
+      </component>
+      <component id="94270" class="javax.swing.JLabel" binding="lblCNP">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CNP(format din 13 cifre): "/>
+        </properties>
+      </component>
+      <component id="e4b79" class="javax.swing.JTextField" binding="txtCNP">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="89" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="958fc" class="javax.swing.JButton" binding="btnCreare">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="36" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13393616"/>
+          <text value="Creati profil nou"/>
+        </properties>
+      </component>
+      <component id="d3c0b" class="javax.swing.JLabel" binding="lblAdaugare">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Introduceti aici suma pe care doriti sa o adaugati contului:"/>
+        </properties>
+      </component>
+      <component id="94aae" class="javax.swing.JTextField" binding="txtSumaAdaugata">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="89" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="be537" class="javax.swing.JLabel" binding="lblRetragere">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Introduceti aici suma pe care doriti sa o retrageti din cont:"/>
+        </properties>
+      </component>
+      <component id="dde33" class="javax.swing.JTextField" binding="txtRetragere">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="89" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ea3b4" class="javax.swing.JButton" binding="btnAdaugare">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="36" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Adauga!"/>
+        </properties>
+      </component>
+      <component id="d808f" class="javax.swing.JButton" binding="btnRetragere">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="36" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Retrage!"/>
+        </properties>
+      </component>
+      <hspacer id="56cb3">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="caad8">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="89" height="11"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="52255">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="71f38">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="19da3" class="javax.swing.JLabel" binding="AfisareSumaNoua">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5f94c" class="javax.swing.JButton" binding="btnInterogare">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Interogare sold"/>
+        </properties>
+      </component>
+      <component id="bc0ba" class="javax.swing.JLabel" binding="lblInterogare">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4e259" class="javax.swing.JLabel" binding="lblSterge">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2aef" class="javax.swing.JButton" binding="btnSterge">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sterge date cont"/>
+        </properties>
+      </component>
+      <grid id="96e44" binding="Panel2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2a5fa" class="javax.swing.JButton" binding="btnInchhidere">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Apasa pentru a inchide portalul!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
